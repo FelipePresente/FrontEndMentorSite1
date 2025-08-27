@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+
+<body class ="font-[epilogue]">
+
+  <header class="p-4 min-h-15 w-full flex justify-between items-center">
+
+    <nav class="flex gap-20">
+
+      <a href="index.html" class="p-2"><img src="images/logo.svg" alt="logo" class="scale-120"></a>
+
+      <ul class="flex gap-10 items-center max-md:hidden">
+
+        <li class="flex items-center gap-2 text-gray-600 hover:text-black cursor-pointer">Features <img src="images/icon-arrow-down.svg"></li>
+        <li class="flex items-center gap-2 text-gray-600 hover:text-black cursor-pointer">Company <img src="images/icon-arrow-down.svg"></li>
+        <li class ="text-gray-600 hover:text-black cursor-pointer">Careers</li>
+        <li class ="text-gray-600 hover:text-black cursor-pointer">About</li>
+
+      </ul>
+
+    </nav>
+
+    <div class="max-md:hidden grid grid-cols-2 mx-5 items-center">
+
+      <div class="text-gray-600 hover:text-black cursor-pointer">Login</div>
+      <div class="px-4 py-2 border border-black rounded-xl text-gray-600 hover:text-black cursor-pointer">Register</div>
+
+    </div>
+
+    <div class="md:hidden"><img src="images/icon-menu.svg" alt="menu"></div>
+
+  </header>
+
+</body>
+
+</html>
